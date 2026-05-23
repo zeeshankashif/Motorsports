@@ -1,0 +1,6 @@
+{
+  "name": "Zexan Motorsports",
+  "description": "A high-fidelity landing page for ZEXAN MOTORSPORTS, featuring kinematic showcase grids, luxury custom spotlights, bento performance specs, and interactive physics booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
