@@ -97,7 +97,7 @@ export default function VehicleModal({ vehicle, onClose, onApplyToBooking }: Veh
               <img
                 src={vehicle.image}
                 alt={vehicle.name}
-                className="w-full max-w-md object-contain drop-shadow-[0_20px_50px_rgba(34,197,94,0.15)] transition-all duration-500"
+                className="w-full max-w-md object-contain drop-shadow-[0_20px_50px_rgba(34,197,94,0.15)] transition-all duration-500 rounded-2xl"
                 style={{
                   filter: `drop-shadow(0 25px 40px ${selectedColor.hex}22)`
                 }}

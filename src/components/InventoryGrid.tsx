@@ -97,16 +97,16 @@ export default function InventoryGrid({ onSelectVehicle }: InventoryGridProps) {
                 className="bg-white rounded-3xl border border-zinc-200 shadow-sm hover:shadow-2xl hover:border-zinc-300 transition-all duration-300 overflow-hidden group flex flex-col justify-between"
               >
                 {/* Image Section */}
-                <div className="p-6 bg-[#f9fafb] relative flex items-center justify-center min-h-[260px] cursor-pointer" onClick={() => onSelectVehicle(car)}>
-                  <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 px-2 py-0.5 bg-black/5 rounded-full text-[9px] font-mono tracking-wider font-semibold">
-                    <Sparkles className="w-2.5 h-2.5" />
+                <div className="relative h-[240px] cursor-pointer rounded-[20px] m-3 overflow-hidden border border-zinc-200 bg-zinc-950" onClick={() => onSelectVehicle(car)}>
+                  <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 bg-black/40 backdrop-blur-md rounded-full text-[9px] font-mono tracking-wider font-semibold text-white z-10 border border-white/10">
+                    <Sparkles className="w-2.5 h-2.5 text-green-400" />
                     <span>BESPOKE BUILD AVAILABLE</span>
                   </div>
 
                   <img
                     src={car.image}
                     alt={car.name}
-                    className="w-[90%] object-contain max-h-[160px] group-hover:scale-110 group-hover:rotate-1 transition-transform duration-500 ease-out py-4"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                     referrerPolicy="no-referrer"
                   />
                 </div>
