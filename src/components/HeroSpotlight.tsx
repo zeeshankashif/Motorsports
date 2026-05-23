@@ -148,7 +148,7 @@ export default function HeroSpotlight() {
         {/* Layer 1: Shadows Base - Dark car overlay (Subtle ambient lines) */}
         <div className="absolute inset-0 flex items-center justify-center opacity-15 saturate-50 blur-[1px]">
           <img
-            src="/src/assets/images/hero_supercar_1779548492367.png"
+            src="/images/hero_supercar_1779548492367.png"
             alt="Base Shadow"
             className="w-full max-w-3xl object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.9)]"
             referrerPolicy="no-referrer"
@@ -166,7 +166,7 @@ export default function HeroSpotlight() {
           }}
         >
           <img
-            src="/src/assets/images/hero_supercar_1779548492367.png"
+            src="/images/hero_supercar_1779548492367.png"
             alt="Spotlight Surface"
             className="w-full max-w-3xl object-contain drop-shadow-[0_25px_60px_rgba(34,197,94,0.15)]"
             referrerPolicy="no-referrer"

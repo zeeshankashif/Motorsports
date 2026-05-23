@@ -130,7 +130,7 @@ export default function SpecBento() {
               }}
             >
               <img
-                src="/src/assets/images/hero_supercar_1779548492367.png"
+                src="/images/hero_supercar_1779548492367.png"
                 alt="Bento Scaled Supercar"
                 className="w-[85%] md:w-[75%] object-contain drop-shadow-[0_20px_40px_rgba(34,197,94,0.1)] hover:rotate-2 transition-transform duration-700"
                 referrerPolicy="no-referrer"
